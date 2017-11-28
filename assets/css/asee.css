@@ -1,0 +1,16 @@
+.asee-header, .menu {
+    background-color: #182c51 !important;
+    color: mintcream;
+}
+
+.menu > li > a {
+    color: mintcream;
+}
+
+.menu > .asee-menu-option:hover {
+    background-color: #254b6e;
+}
+
+#asee-main {
+    padding-top: 1em;
+}
