@@ -11,28 +11,28 @@
     <link rel="stylesheet" type="text/css" href="assets/css/asee.css">
 </head>
 <body>
+
     <?php require_once 'common/header.php'; ?>
 
-    <main id="asee-main">
-
+    <div class="asee-banner">
         <section class="row column text-center">
             <h2>ASEE - St. Lawrence Section</h2>
             <h4>April 20 - 21, 2018</h4>
             <h4>Cornell University, Ithaca, NY</h4>
+            <a class="success button show-for-small-only" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;Register</a>
         </section>
+    </div>
 
-        <section class="row column text-center show-for-small-only">
-            <a class="success button" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;Register</a>
-        </section>
+    <main id="asee-main">
 
-        <section class="row column">
+        <section class="asee-section row column">
             <h3>Theme</h3>
             This year, our theme is <strong>Intent, Design, Solutions: Contexts in Engineering Education</strong>. We invite colleagues (faculty,
             researchers, graduate students, post-docs, and undergraduates) to join us in sharing their work and ideas about how
             contexts (or the lack of them) impact all aspects of engineering education.
         </section>
 
-        <section class="row column">
+        <section class="asee-section row column">
             <h3>Invited Speakers</h3>
 
             <p>
@@ -49,8 +49,8 @@
             </p>
         </section>
 
-        <section class="row column">
-            <h3>Important Dates</h3>
+        <section class="asee-section row column">
+            <h3 id="important-dates">Important Dates</h3>
 
             <h5>Anticipated Schedule for Papers and Abstracts</h5>
             <table>
@@ -61,7 +61,7 @@
                 </tr>
                 <tr>
                     <td>January 8, 2017</td>
-                    <td><strong>Priority</strong> Papers and Abstracts due by 11:59pm EST. Papers, Abstracts and Posters, submitted by this date will quality for a discounted reegistration price.</td>
+                    <td><strong>Priority</strong> Papers and Abstracts due by 11:59pm EST. Papers, Abstracts and Posters, submitted by this date will quality for a discounted registration price.</td>
                 </tr>
                 <tr>
                     <td>January 17, 2018</td>

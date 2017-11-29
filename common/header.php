@@ -2,7 +2,7 @@
     <div class="top-bar-left">
         <ul class="dropdown medium-horizontal menu" data-dropdown-menu>
             <li class="menu-text">ASEE 2017</li>
-            <li class="asee-menu-option"><a href="#">Dates</a></li>
+            <li class="asee-menu-option"><a href="#important-dates">Dates</a></li>
             <li class="asee-menu-option"><a href="#">Presentations</a></li>
             <li class="asee-menu-option"><a href="#">Writing</a></li>
             <li class="asee-menu-option">
@@ -16,7 +16,7 @@
         </ul>
     </div>
     <div class="top-bar-right hide-for-small-only">
-        <ul class="dropdown medium-horizontal menu" data-dropdown-menu>
+        <ul class="menu">
             <li><a class="success button" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register&nbsp;</a></li>
         </ul>
     </div>
